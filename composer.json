@@ -57,7 +57,8 @@
         "drupal/youtube": "^1.0@beta",
         "drupal/console": "~1.0",
         "moxiecode/plupload": "^3.1",
-        "drupal/cloudflare": "^1.0@alpha"
+        "drupal/cloudflare": "^1.0@alpha",
+        "drupal/elasticsearch_connector": "^6.0@alpha"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

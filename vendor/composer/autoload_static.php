@@ -27,6 +27,7 @@ class ComposerStaticInitDrupal8
         '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
         '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
         '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
     );
@@ -35,6 +36,10 @@ class ComposerStaticInitDrupal8
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'n' => 
+        array (
+            'nodespark\\DESConnector\\' => 23,
         ),
         'c' => 
         array (
@@ -96,6 +101,10 @@ class ComposerStaticInitDrupal8
             'Symfony\\Bridge\\PhpUnit\\' => 23,
             'Stecman\\Component\\Symfony\\Console\\BashCompletion\\' => 49,
         ),
+        'R' => 
+        array (
+            'React\\Promise\\' => 14,
+        ),
         'P' => 
         array (
             'Psy\\' => 4,
@@ -107,6 +116,7 @@ class ComposerStaticInitDrupal8
         'M' => 
         array (
             'Masterminds\\' => 12,
+            'MakinaCorpus\\Lucene\\' => 20,
         ),
         'J' => 
         array (
@@ -115,10 +125,17 @@ class ComposerStaticInitDrupal8
         ),
         'G' => 
         array (
+            'GuzzleHttp\\Stream\\' => 18,
+            'GuzzleHttp\\Ring\\' => 16,
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Goutte\\' => 7,
+        ),
+        'E' => 
+        array (
+            'Elasticsearch\\' => 14,
+            'Elastica\\' => 9,
         ),
         'D' => 
         array (
@@ -161,6 +178,10 @@ class ComposerStaticInitDrupal8
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'nodespark\\DESConnector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nodespark/des-connector/src/DESConnector',
         ),
         'cweagans\\Composer\\' => 
         array (
@@ -330,6 +351,10 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/stecman/symfony-console-completion/src',
         ),
+        'React\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
@@ -354,6 +379,10 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'MakinaCorpus\\Lucene\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/makinacorpus/php-lucene/src',
+        ),
         'JakubOnderka\\PhpConsoleHighlighter\\' => 
         array (
             0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
@@ -361,6 +390,14 @@ class ComposerStaticInitDrupal8
         'JakubOnderka\\PhpConsoleColor\\' => 
         array (
             0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
+        ),
+        'GuzzleHttp\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/streams/src',
+        ),
+        'GuzzleHttp\\Ring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/ringphp/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -377,6 +414,14 @@ class ComposerStaticInitDrupal8
         'Goutte\\' => 
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
+        ),
+        'Elasticsearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch',
+        ),
+        'Elastica\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ruflin/elastica/lib/Elastica',
         ),
         'Drupal\\redis\\' => 
         array (
