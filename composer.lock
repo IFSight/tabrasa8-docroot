@@ -1896,16 +1896,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.10",
+            "version": "8.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "url": "https://api.github.com/repos/drupal/core/zipball/8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
+                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
                 "shasum": ""
             },
             "require": {
@@ -1948,7 +1948,7 @@
                 "symfony/translation": "~3.4.0",
                 "symfony/validator": "~3.4.0",
                 "symfony/yaml": "~3.4.5",
-                "twig/twig": "^1.35.0",
+                "twig/twig": "^1.38.2",
                 "typo3/phar-stream-wrapper": "^2.0.1",
                 "zendframework/zend-diactoros": "^1.1",
                 "zendframework/zend-feed": "^2.4"
@@ -2134,7 +2134,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-20T18:35:01+00:00"
+            "time": "2019-03-20T06:01:19+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -7283,31 +7283,31 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.4",
+            "version": "v1.38.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
+                "reference": "5df0ef0ca2d08a6f087384c7f31530fb84889f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
-                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5df0ef0ca2d08a6f087384c7f31530fb84889f28",
+                "reference": "5df0ef0ca2d08a6f087384c7f31530fb84889f28",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=5.4.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
                 "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.3"
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.35-dev"
+                    "dev-master": "1.38-dev"
                 }
             },
             "autoload": {
@@ -7345,7 +7345,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-07-13T07:12:17+00:00"
+            "time": "2019-03-21T14:50:13+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",
